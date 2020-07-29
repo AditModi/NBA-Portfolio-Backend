@@ -2,7 +2,7 @@ const express = require('express');
 const Twitter = require('twit');
 const app = express();
  
-app.listen(process.env.PORT || 4200, () => console.log('Server running'))
+app.listen(process.env.PORT || 3000, () => console.log('Server running'))
 
 // Allowing X-domain request
 var allowCrossDomain = function (req, res, next) {
